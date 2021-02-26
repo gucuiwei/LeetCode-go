@@ -1,0 +1,2 @@
+# LeetCode-go
+leetcode learning
