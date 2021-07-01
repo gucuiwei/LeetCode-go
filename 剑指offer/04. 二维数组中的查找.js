@@ -12,6 +12,7 @@
   ]
  var findNumberIn2DArray = function(matrix, target) {
     if(matrix.length) {
+        // 将二维数组转换成一维数组
        var translateArray = matrix.reduce(function (a, b) { return a.concat(b)} )
        for(let i = 0;i<translateArray.length;i++) {
            if (target === translateArray[i]) {
