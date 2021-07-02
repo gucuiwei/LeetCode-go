@@ -15,9 +15,9 @@
  */
 
  let test = "  hello world!  "
+ // filter 过滤调其中所有为空的情况
  var reverseWords = function(s) {
     if(!s){return ''}
-    let array = s.split(' ').reverse().filter(i=>i&& i.trim()).join(' ')
+    let array = s.split(' ').reverse().filter(i=>i).join(' ')
     return array
 };
-console.log(reverseWords(test))
