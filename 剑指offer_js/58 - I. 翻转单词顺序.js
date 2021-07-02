@@ -14,17 +14,10 @@
  * @return {string}
  */
 
- let test = "the sky is blue"
+ let test = "  hello world!  "
  var reverseWords = function(s) {
-    let words = []
-    let word = ''
-    for(let i= 0;i<s.length;i++) {
-        word = word + s[i]
-        if(s[i] === ' ') {
-            words.unshift(word)
-            word = ''
-        }
-    }
-    return words
+    if(!s){return ''}
+    let array = s.split(' ').reverse().filter(i=>i&& i.trim()).join(' ')
+    return array
 };
 console.log(reverseWords(test))
