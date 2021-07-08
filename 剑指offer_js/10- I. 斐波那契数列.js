@@ -9,8 +9,8 @@
          return 0;
      }
      if(n==1){
-         return 1;
-     }
+         return 1;/*  */
+     }/*  */
      var fibN = 0;
      var fibOne = 0;
      var fibTwo = 1;

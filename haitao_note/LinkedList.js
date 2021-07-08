@@ -101,3 +101,5 @@ console.log(a)
 a.removeAtIndex(2)
 
 console.log(a)
+
+// 链表的多种形式
