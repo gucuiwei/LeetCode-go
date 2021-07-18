@@ -45,7 +45,6 @@ let word = "ABCCED"
       return dfs(i,j,k) // 继续遍历
     }
   }
-
   return dfs(0,0,0)
 };
 console.log(exist(board, word))
