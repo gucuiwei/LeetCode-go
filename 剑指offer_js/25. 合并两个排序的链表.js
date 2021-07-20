@@ -29,6 +29,7 @@
  * @return {ListNode}
  */
 
+// 使用递归实现
  var mergeTwoLists = function(l1, l2) {
     if (l1 === null) return l2;
     if (l2 === null) return l1;
