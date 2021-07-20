@@ -20,3 +20,4 @@
     root.right = left;
     return root;
 };
+// 采用循环的方式实现
